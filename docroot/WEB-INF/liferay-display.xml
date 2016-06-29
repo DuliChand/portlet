@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<!DOCTYPE display PUBLIC "-//Liferay//DTD Display 6.2.0//EN" "http://www.liferay.com/dtd/liferay-display_6_2_0.dtd">
+
+<display>	
+	<category name="Webshop 3.0">
+
+		<portlet id="home"></portlet>
+		<portlet id="category"></portlet>
+		<portlet id="EventListing"></portlet>
+		<portlet id="productlisitng"></portlet>
+		<portlet id="productdetail"></portlet>
+		<portlet id="cart"></portlet>
+		<portlet id="Billing"></portlet>
+		<portlet id="payment"></portlet>
+
+
+		<portlet id="search"></portlet>
+		
+		<portlet id="userlogin"></portlet>
+		<portlet id="userregistration"></portlet>
+		<portlet id="ForgotPassword"></portlet>
+
+		<portlet id="profile"></portlet>
+		<portlet id="Favourites"></portlet>
+		<portlet id="invitefriend"></portlet>
+		<portlet id="inviteregistration"></portlet>
+		<portlet id="Credits"></portlet>
+		<portlet id="orderhistory"></portlet>
+
+		<portlet id="activate-account"></portlet>
+		<portlet id="AfterSales"></portlet>
+		<portlet id="paymentsummary"></portlet>
+		<portlet id="hdfcresponse"></portlet>
+		<portlet id="restorepassword"></portlet>
+		<portlet id="rewards"></portlet>
+		<portlet id="vouchers"></portlet>
+		<portlet id="electronictag"></portlet>
+		<portlet id="pressrelease"></portlet>
+		<portlet id="printtag"></portlet>
+		<portlet id="digitaltag"></portlet>
+		<portlet id="awardstag"></portlet>
+		<portlet id="navigation"></portlet>
+		<portlet id="gettnc"></portlet>
+		<portlet id="preview"></portlet>
+		<portlet id="previewcategory"></portlet>
+		<portlet id="previewnavigation"></portlet>
+		<portlet id="ordersummary"></portlet>
+		<portlet id="ccelogin"></portlet>
+		<portlet id="categorystore"></portlet>
+		<portlet id="category-products"></portlet>
+	</category>
+</display>

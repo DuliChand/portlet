@@ -1,0 +1,935 @@
+#orderresult {
+	clear:both;
+	margin:0;
+}
+#orderresult hr {
+	margin:40px 0 10px;
+	padding:0
+}
+#orderresult #result-box {
+	clear:both;
+	margin:15px auto;
+	float:left;
+	position:relative;
+	 padding: 10px 0 25px 0;
+	background:#f7f7f7;
+	/* border-radius:8px; */
+	border-bottom:1px solid #e0e0e0
+}
+#orderresult #result-box h2 {
+	margin:0 0 10px;
+	text-align:center;
+	font-size:18px;
+	line-height:22px;
+	display:block;
+	
+	color:#d22573
+}
+#orderresult #result-box h3 {
+	margin:0 auto 0px;
+	text-align:center;
+	font-size:18px;
+	line-height:42px;
+	background:url(http://cdn1.fashionandyou.com/fny-static/app-images/confirm.png) no-repeat;
+	padding:0 0 0 45px;
+	display:block;
+	width:256px
+}
+#orderresult #result-box h4 {
+	 font-size: 18px;
+    line-height: 20px;
+    margin: 0;
+    text-align: center;
+    font-weight: normal;
+}
+#orderresult #result-box h5 {
+	background: url("http://cdn1.fashionandyou.com/fny-static/app-images/caution.png") no-repeat;
+    display: block;
+    font-size: 18px;
+    height: 46px;
+    font-weight: normal;
+    line-height: 44px;
+    margin: 0 auto 10px;
+    padding: 0 0 0 50px;
+    text-align: center;
+    width: 285px;
+}
+#orderresult #result-box h5 strong {
+	color:#de1313;
+	font-weight:400
+}
+#orderresult #result-box p {
+	
+    font-size: 13px;
+    line-height: 25px;
+    margin: 0 0 7px;
+    text-align: center;
+	/* width:700px; */
+	
+}
+.continue-shop1 {
+   
+    text-align: center;
+    width: 100%;
+}
+
+.continue-shop1 .continue-shop {
+    text-align: center;
+    background: #d22573;
+    padding: 7px 5px;
+    width: 250px;
+    margin:0 auto;
+    color: #fff;
+    border-radius: 2px;
+}
+/* .left-side{ margin-left: -164px !important;} */
+/* .left-side-2{margin-left: -164px;} */
+
+#orderresult #result-box p strong {
+	font-weight:400;
+	color:#d22573
+}
+#orderresult .continue-shop {
+	float:left;
+	display:block;
+	width:100%;
+}
+#orderresult .continue-shop a {
+	background: none repeat scroll 0 0 #d22573;
+    border-radius: 4px;
+    color: #fff;
+    display: block;
+    width: 250px;
+    font-size: 13px;
+    margin:0 auto;
+    padding: 6px 4px;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 1px 1px 1px #333;
+    text-transform: uppercase;
+}
+#orderresult .continue-shop a:hover {
+	background:#000
+}
+
+.unsceesTxt{float:left; width:100%;}
+
+#orderresult .continue-shop1 a {
+    background: none repeat scroll 0 0 #d22573;
+    border-radius: 3px;
+    color: #fff;
+    display: inline;
+    float: none;
+    margin: 0 auto;
+    padding: 7px 10px;
+    width: 150px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+
+.sharing-area {
+	width:100%;
+	height:auto;
+	margin-top:30px;
+	clear:both;
+	font-size:16px;
+	line-height:16px;
+	color:#666
+}
+.codMessage{font-size:20px; text-align:center; width:100%; padding:5px 10px; display:block; }
+#orderresult #que-feedback {
+	clear:both;
+	padding:20px 0 30px;
+	margin:0 auto;
+	float:none;
+	width:80%
+}
+#orderresult #que-feedback h2 {
+	margin:0 0 10px;
+	font-size:32px;
+	color:#242424;
+	font-weight:normal;
+	text-align:center;
+	display:block
+}
+#orderresult #que-feedback .querybox {
+	background:#f7f7f7;
+	border-radius:6px;
+	border-bottom:1px solid #e0e0e0;
+	padding:15px
+}
+#orderresult #que-feedback .querybox form {
+	display:block;
+	float:left;
+	padding:0;
+}
+#orderresult #que-feedback .querybox form h3 {
+	margin:0 0 10px;
+	font-size:16px;
+	font-weight:normal;
+	color:#000
+}
+#orderresult #que-feedback .querybox form textarea {
+	width:100%;
+	height:80px;
+	background:#fff;
+	border:1px solid #ededed;
+	border-radius:6px;
+	margin:0 0 8px;
+	resize:vertical;
+	padding:6px
+}
+#orderresult #que-feedback .querybox form input.go {
+	background:#d22573;
+	border:none;
+	padding:4px 12px;
+	font-size:13px;
+	text-transform:uppercase;
+	
+	cursor:pointer;
+	color:#fff
+}
+#orderresult #que-feedback .querybox .question-box {
+	float:right;
+	text-align:center;
+	padding:30px 0 0;
+}
+#orderresult #que-feedback .querybox .question-box h3 {
+	margin:0 0 6px;
+	color:#242424;
+	font-size:24px;
+	font-weight:normal;
+	
+}
+#orderresult #que-feedback .querybox .question-box p {
+	margin:0;
+	font-size:14px;
+	
+}
+#orderresult #que-feedback .querybox .success-message {
+	display:none;
+	float:left;
+	text-align:center;
+	padding:20px 5px;
+	width:52%;
+	background:#fff;
+	border:1px solid #f0f0f0;
+	border-radius:5px;
+	margin:26px 0 0;
+	color:#d22573
+}
+#orderresult #que-feedback .querybox .success-message p {
+	margin:0;
+	font-size:14px;
+	
+}
+#orderresult #que-feedback .querybox .error-message1 {
+	display:none;
+	float:left;
+	text-align:center;
+	padding:20px 5px;
+	width:52%;
+	background:#fff;
+	border:1px solid #f0f0f0;
+	border-radius:5px;
+	margin:26px 0 0;
+	color:#d22573
+}
+#orderresult #que-feedback .querybox .error-message1 p {
+	margin:0;
+	font-size:14px;
+	
+}
+.sharing-area a:hover {
+	color:#d22573;
+	text-decoration:underline
+}
+.hidesharing .share-products {display:none;}
+.share-products {
+	float:left;
+	width:100%;
+	height:290px;
+	padding:20px 0;
+	overflow:hidden;
+	border-top:1px solid #f5f6f6;
+	border-bottom:1px solid #f5f6f6
+}
+.share-products h2 {
+	width:100%;
+	margin:0 0 10px;
+	
+	font-size:18px;
+	line-height:18px;
+	color:#666
+}
+.share-products h2 div {
+	float:right;
+	padding:5px 0 0;
+	
+	font-size:12px;
+	line-height:12px;
+	color:#666;
+	text-transform:uppercase
+}
+.share-products h2 a {
+	margin:0 2px
+}
+.share-products .products-gallery {
+	float:left;
+	width:100%;
+	height:auto
+}
+.share-products .products-gallery .gal-dis-prod {
+	float:left;
+	width:130px;
+	height:185px;
+	margin:0 32px 40px 0;
+	
+}
+
+.share-products .products-gallery .gal-dis-prod:nth-child(6n+6) {margin-right:0;}
+
+.share-products .products-gallery .gal-dis-prod .gal-prod-img {
+	float:left;
+	width:100%;
+	height:155px;
+	overflow:hidden;
+}
+
+.share-products .products-gallery .gal-dis-prod .gal-prod-img img {width:100%;}
+
+.share-products .products-gallery .gal-dis-prod .gal-prod-name {
+	display:block;
+	float:left;
+	width:100%;
+	height:15px;
+	margin:10px 0 0;
+	overflow:hidden;
+	font-size:12px;
+	font-weight:400;
+	line-height:12px;
+	letter-spacing:normal;
+	color:#666;
+	text-overflow:ellipsis;
+	text-transform:capitalize;
+	white-space:nowrap;
+	
+}
+.product-share {
+	float:left;
+	margin:13px 0 0
+}
+.product-share .sharearea1 {
+	width:135px;
+	height:25px;
+	white-space:nowrap;
+	overflow:hidden;
+	position:relative;
+	transition:all 1s linear
+}
+.product-share .sharearea1 .sharetxt {
+	font-size:12px;
+	line-height:13px;
+	
+	display:block;
+	float:left
+}
+.product-share .sharearea1 .listing-share1 {
+	float:left;
+	width:15px;
+	height:15px;
+	margin-right:6px;
+	margin-top:7px;
+	background:url(http://cdn1.fashionandyou.com/fny-static/app-images/sprite.png) -61px -383px no-repeat;
+	cursor:pointer
+}
+/* .product-share .sharearea1 .listing-share1:hover {
+	background-position:-61px -383px
+} */
+.product-share .sharearea1:hover {
+	width:145px!important
+}
+.product-share .sharearea1 .shareslide1 {
+	  background-color: white;
+    left: -150px;
+   /*  opacity: 0; */
+    padding: 1px 5px;
+   /*  position: absolute; */
+    transition: all 0.5s linear 0s;
+  /*   visibility: hidden; */
+    width: 145px;
+}
+.product-share .sharearea1:hover .shareslide1 {
+transition:all .5s linear;
+	left:20px;
+	visibility:visible;
+	opacity:1
+}
+.product-share .sharearea1 a.iemail, .product-share .sharearea1 a.ifacebook, .product-share .sharearea1 a.itwitter, .product-share .sharearea1 a.igplus, .product-share .sharearea1 a.ipintrest {
+	display:block;
+	float:left;
+	margin:0 3px 0 0;
+	height:25px;
+	background:url(http://cdn1.fashionandyou.com/fny-static/app-images/sprite.png) no-repeat
+}
+.product-share .sharearea1 a.ifacebook {
+	width:25px;
+	height:25px;
+	background-position:-1px -2px
+}
+.product-share .sharearea1 a.itwitter {
+	width:25px;
+ 	background-position:0 -33px
+}
+.product-share .sharearea1 a.iemail {
+	width:18px;
+	height:24px;
+	background-position:-88px -55px
+}
+.product-share .sharearea1 a.igplus {
+	width:25px;
+	height:24px;
+	background-position: -0px -97px;
+}
+.product-share .sharearea1 a.ipintrest {
+	width:25px;
+	height:24px;
+	background-position: -25px -416px;
+}
+
+.sidebar-floating {
+	height:91%;
+	position:absolute;
+	right:0;
+	top:0;
+	width:315px
+}
+.order-sum-outer {
+	float:left;
+	height:auto;
+	margin:16px 0 0;
+	width:315px
+}
+.order-sum-box {
+	background:none repeat scroll 0 0 #F1F1F1;
+	border-radius:6px;
+	float:left;
+	height:auto;
+	width:100%
+}
+.order-sum-outer .sum-heading {
+	color:#000;
+	width:100%;
+	float:left;
+	border-bottom:#dedede solid 1px;
+	font-size:14px;
+	line-height:18px;
+	padding:10px 0 0px 14px;
+	text-transform:uppercase
+}
+.redeem-area {
+	float:left;
+	height:auto;
+	margin:0 2px;
+	padding-bottom:5px;
+	width:98%
+}
+.redeem-area #coupon-box, .redeem-area #coupon-box1, .redeem-area #reward-box, .redeem-area #credit-box {
+	float:right;
+	position:relative
+}
+.redeem-area form {
+	color:#666;
+	
+	font-size:12px;
+	margin:2px 0 0
+}
+.redeem-area form label:before {
+	background:url(http://cdn1.fashionandyou.com/fny-static/app-images/sprite.png) no-repeat scroll -541px -79px;
+	content:"";
+	display:block;
+	height:15px;
+	left:-17px;
+	position:absolute;
+	top:6px;
+	width:14px
+}
+.redeem-area form a.go{
+	background:#333;
+	border-bottom:1px solid #000;
+	color:#FFF;
+	cursor:pointer;
+	float:right;
+	margin:0 0 0 3px;
+	padding:0 2px;
+	width:52px;
+	text-align: center;
+}
+.redeem-area form button.go {
+	background:#333;
+	border:none;
+	color:#FFF;
+	cursor:pointer;
+	float:right;
+	margin:0 0 0 3px;
+	padding:0 2px;
+	width:52px;
+}
+.redeem-area form input {
+	background:none repeat scroll 0 0 #FFF;
+	border:1px solid #CCC;
+	float:left;
+	
+	font-size:11px;
+	height:19px;
+	margin:0;
+	padding:3px 2px;
+	width:110px
+}
+.redeem-area form select {
+	width: 110px;
+    border: #ccc solid 1px;
+    height: 20px;
+    line-height: 19px;
+}
+.redeem-area .coupon:before, .redeem-area .coupon1:before {
+	background-position:-31px -240px;
+	width:16px
+}
+.redeem-area span:before {
+	background-position:-91px -153px;
+	content:"";
+	display:block;
+	height:16px;
+	left:0;
+	position:absolute;
+	width:13px
+}
+.redeem-area span.active:after {
+
+}
+.redeem-area span:after {
+	color:#999;
+	font-size:10px;
+	left:90px;
+	margin:0 0 0 10px;
+	position:absolute;
+	top:0
+}
+.redeem-area .coupon, .redeem-area .coupon1 {
+	clear:none;
+	float:left;
+	padding-right:5px
+}
+.redeem-area span {
+	color:#000;
+	cursor:pointer;
+	display:block;
+	float:left;
+	
+	font-size:12px;
+	line-height:16px;
+	margin:5px 0 5px 5px;
+	position:relative;
+	text-indent:20px
+}
+.redeem-area span i {
+	color:#d22573;
+	display:block;
+	font-size:11px;
+	font-style:normal
+}
+.sum-content ul {
+	margin:0 13px;
+	padding:0
+}
+.sum-content ul li {
+	border-bottom:1px dashed #C3C3C3;
+	clear:both;
+	display:block;
+	float:left;
+	line-height:normal;
+	list-style-type:none;
+	min-height:25px;
+	padding:3px;
+	width:100%
+}
+
+.sum-content ul li span {
+	color:#333;
+	float:left;
+	
+	font-size:12px
+}
+.sum-content ul li span:first-child {
+	min-width:120px
+}
+.sum-content ul li span.product-value-label {
+	float:left;
+	min-width:auto
+}
+.sum-content ul li span.product-value {
+	float:right;
+	min-width:auto;
+	clear:none;
+	letter-spacing:normal;
+	text-transform:capitalize
+}
+.sum-content ul li span:last-child {
+	clear:none;
+	float:right!important;
+	letter-spacing:normal;
+	text-transform:capitalize
+}
+.sum-content ul li span i {
+	clear:both;
+	color:#d22573;
+	display:block;
+	font-size:12px;
+	font-style:normal
+}
+.sum-content ul li a.del-but, .sum-content ul li a.edit-but {
+	background:url(http://cdn1.fashionandyou.com/fny-static/app-images/sprite.png) no-repeat;
+	display:block;
+	float:left;
+	height:11px;
+	margin:3px 5px 0 0;
+	width:11px;
+	text-indent:-99999px
+}
+.sum-content ul li a.del-but {
+	background-position:-357px -125px
+}
+.sum-content ul li a.edit-but {
+	background-position:-120px -258px
+}
+.sum-content ol {
+	margin:13px;
+	padding:0
+}
+.sum-content ol li {
+
+	clear:both;
+	display:block;
+	list-style-type:none;
+	min-height:20px;
+	padding:4px 3px;
+	text-align:right
+}
+.sum-content ol li.textbold{ font-size:12px; }
+.sum-content ol li:last-child{
+	border:none;
+}
+.sum-content ol li strong {
+	color:#d22573;
+	
+}
+.sum-content ol li span {
+	display:inline-block;
+	
+	width:70px
+}
+.total-area {
+	 background:#dedede;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-top: 1px solid #ddd;
+    clear: both;
+    color: #000;
+    height: 35px;
+    padding: 10px;
+    text-align: right;
+}
+.total-area span:first-child {
+	padding:0 20px 0 0;
+	text-transform:uppercase
+}
+.total-area span:last-child {
+	padding-right:5px;
+	text-transform:capitalize
+}
+.total-area span {
+	color:#333;
+	
+	font-size:14px;
+	line-height:normal
+}
+.offers-link.personal:before {
+	background:url(http://cdn1.fashionandyou.com/fny-static/app-images/sprite.png) no-repeat -504px -11px;
+	content:"";
+	display:block;
+	height:15px;
+	left:-23px;
+	position:absolute;
+	width:19px
+}
+.offers-link.personal {
+	clear:both;
+	color:#d22573;
+	cursor:pointer;
+	display:block;
+	position:relative;
+	float:left;
+	
+	margin:5px 0 4px 36px
+}
+.offers-link.personal .questionmark .offertooltip {
+	position:absolute;
+	
+	background:#fff;
+	color:#333;
+	z-index:3;
+	border:1px solid #d22573;
+	border-radius:4px;
+	-webkit-border-radius:4px;
+	width:160px;
+	left:-70px;
+	right:auto;
+	top:20px;
+	padding:5px;
+	display:none
+}
+.offers-link.personal .questionmark:hover .offertooltip {
+	display:block
+}
+.offers-link.personal .questionmark {
+	display:inline-block;
+	
+	position:relative;
+	color:#fff;
+	background:#d22573;
+	padding:0 5px;
+	border-radius:100%
+}
+#showhiderow {
+	display:none
+}
+.redeem-area form.hidethis {
+	display:none
+}
+.redeem-area form .select-wrapper {
+	margin-right:0;
+	width:auto
+}
+.select-wrapper {
+	height:24px;
+	margin:0 20px 6px 0;
+	position:relative;
+	width:52px;
+	z-index:auto
+}
+.redeem-area form input.selectbox {
+	background:url(http://cdn1.fashionandyou.com/fny-static/app-images/arrowdown.jpg) no-repeat scroll right center #FFF;
+	padding-right:15px;
+	text-indent:2px;
+	width:100%!important
+}
+.select-wrapper .selectbox {
+	line-height:24px
+}
+.select-wrapper .selectbox-wrapper {
+	width:100%!important
+}
+.redeem-area form .selectbox-wrapper ul li {
+	padding:3px
+}
+.check-avalible {
+	padding:15px 10px 0 0;
+	clear:both;
+	position:relative
+}
+.check-avalible h3 {
+	
+	font-size:12px;
+	color:#666;
+	margin:0
+}
+.check-avalible .checkservice {
+	clear:both;
+	padding:3px 0 0;
+	padding:5px 0;
+	margin:5px 0 0
+}
+.check-avalible .checkservice input {
+	width:105px;
+	border:1px solid #CCC;
+	height:23px;
+	margin:0 5px 0 0;
+	float:left;
+	padding:2px;
+	line-height:20px;
+}
+.check-avalible .checkservice .go {
+	background:#333;
+	display:block;
+	float:left;
+	color:#fff;
+	padding:3px 10px 2px;
+	
+}
+.check-avalible .checkservice .go:hover {
+	background:#d22573
+}
+.check-avalible h3 .button-check {
+	background:#000;
+	display:block;
+	float:right;
+	line-height:15px;
+	color:#fff;
+	padding:3px 10px 2px;
+	
+}
+.check-avalible h3 .button-check:hover {
+	background:#d22573
+}
+.check-avalible .checkservice .statusmsg {
+	display:none;
+	clear:both;
+	padding:3px 0 0;
+	font-size:12px;
+	
+	height:22px;
+	float:left;
+}
+.check-avalible .checkservice .statusmsg .icon {
+	width:14px;
+	height:15px;
+	display:block;
+	float:left;
+	margin:1px 5px 0 0;
+	background:url(http://cdn1.fashionandyou.com/fny-static/app-images/sprite.png) no-repeat 20px 20px
+}
+.check-avalible .checkservice .statusmsg.green {
+	color:#1a2
+}
+.check-avalible .checkservice .statusmsg.green .icon {
+	background-position:-541px -79px
+}
+.check-avalible .checkservice .statusmsg.red {
+	color:#d22573;
+	background:none
+}
+.check-avalible .checkservice .statusmsg.red .icon {
+	background-position:-357px -125px
+}
+.select-payment {
+	border-top:1px solid #F5F6F6;
+	color:#666;
+	float:left;
+	
+	font-size:12px;
+	height:auto;
+	line-height:12px;
+	margin:0 10px;
+	padding:20px 0 0 5px;
+	text-transform:uppercase;
+	width:93%
+}
+.payment-area {
+	float:left;
+	height:auto;
+	width:100%
+}
+.payment-area a {
+	position:relative;
+	float:left;
+	width:47px;
+	height:16px;
+	margin:15px 8px 5px 0
+}
+.payment-area a:before {
+	position:absolute;
+	width:47px;
+	height:16px;
+	background-position:-28px -265px;
+	content:''
+}
+.payment-area .master {
+	width:26px;
+	margin-top:14px
+}
+.payment-area .master:before {
+	width:26px;
+	background-position:-230px -207px
+}
+.payment-area .paypal-icon {
+	width:59px;
+	margin-top:16px
+}
+.payment-area .paypal-icon:before {
+	width:59px;
+	background-position:-162px -210px
+}
+.payment-area .netbank-icon {
+	width:67px;
+	height:8px;
+	margin-top:21px
+}
+.payment-area .netbank-icon:before {
+	width:67px;
+	height:8px;
+	background-position:-188px -174px
+}
+.payment-area .cod-icon {
+	width:53px;
+	margin-top:14px;
+	margin-right:0
+}
+.payment-area .cod-icon:before {
+	width:53px;
+	background-position:-202px -188px
+}
+.redeem-area.personal {
+	display:block;
+}
+.redeem-area #personal-voucher-box, .redeem-area #coupon-box, .redeem-area #rewards-box, .redeem-area #credits-box {
+	float:right;
+	position:relative;
+	display:block
+}
+.redeem-area.global #coupon-box {
+	display:block
+}
+.redeem-area .coupon:after {
+    content: "";
+}
+
+.moresaving{background-color:#e4e4e4; padding: 3px 15px !important; width:100% !important; clear:both;}
+.moresaving .product-value {
+    clear: none;
+    float: right;
+    letter-spacing: normal;
+    text-transform: capitalize;
+}
+
+#order-successfull {float:left; width:615px;}
+#order-successfull tbody tr {    border-bottom: 1px solid #efefef;    border-top: #efefef solid 1px;}
+#order-successfull h2 {margin:0px 0px 10px 0px; display:block; font-weight:normal; border-bottom:1px solid #e7e7e7; font-size:16px; padding:0px 0px 5px 0px;}
+#order-successfull h3 {margin:0px 0px 12px 0px; font-size:16px; line-height:32px; font-weight:normal;}
+#order-successfull h3 strong {font-weight:normal; font-size:18px; padding:0 15px; color: #d22573;}
+#order-successfull h3 a {color:#000; text-decoration:none; font-weight:bold;}
+#order-successfull p {margin:0px 0px 22px 0px; font-size:12px;}
+#order-successfull p a {color:#d22573;}
+#order-successfull p a.feedbackbut {display:inline-block; padding:4px 10px; background:#d22573; color:#fff; text-decoration:none; border-radius:4px; -webkit-border-radius:4px;}
+#order-successfull #ordersummary-holder {clear:both; margin:0px 0px 10px 0px; border:1px solid #d0d0d0; padding:12px;}
+#order-successfull tr {    border-bottom: 1px solid #efefef;    padding: 0 5px;}
+#order-successfull #ordersummary-holder h4 {margin:0px 0px 10px 0px; /*border-bottom:1px solid #d0d0d0;*/ line-height:22px; display:block; padding:0px 0px 6px 0px; font-size:16px; font-weight:normal;}
+#order-successfull #ordersummary-holder .printbutton {float:right; background:#d22573; display:block; padding:3px 15px; font-size:13px; color:#fff; text-decoration:none; border-radius:4px; -webkit-border-radius:4px;}
+
+#order-successfull #ordersummary-holder table th,
+#order-successfull #ordersummary-holder table td {font-size:12px; text-align:center; color:#383839; padding:3px 0px; border-right: #efefef solid 1px;}
+
+#order-successfull #ordersummary-holder tr th:first-child,
+#order-successfull #ordersummary-holder tr td:first-child {text-align:left; padding-left: 5px; border-left: #efefef solid 1px;}
+#order-successfull #ordersummary-holder tr th:last-child,
+#order-successfull #ordersummary-holder tr td:last-child {text-align:right; padding-right: 5px;}
+
+#ordersumContainer {float:right;}
+
+.order-sum-outer .sum-heading{
+	border-radius: 5px;
+}
+.continue-shop1{
+	margin-bottom: 15px;
+}

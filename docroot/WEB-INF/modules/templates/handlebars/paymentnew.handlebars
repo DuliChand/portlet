@@ -1,0 +1,227 @@
+<!-- payment area starts here -->
+<div class="col-sm-12 col-md-8">
+	<div class="payment-section-area">
+            <div class="payment-section">
+              <ul>
+                <li class="dbit active payListTab" id="debitcredit"><a href="#">Debit / Credit</a></li>
+                <li id="netbanking" class="payListTab"><a href="#">NetBanking</a></li>
+                <!--<li id="emi" class="payListTab"><a href="#">EMI</a></li>-->
+                <li id="wallet" class="payListTab"><a href="#">Wallet</a></li>
+                <li id="cod" class="payListTab"><a href="#">COD</a></li>
+                <li id="payback" class="payListTab"><a href="#">Payback Points</a></li>
+              </ul>
+            </div>
+            <div class="container-payment">
+              <div class="divcontent paymethod1" id="debitcreditContent" style="display:block;" >
+                <div class="tabs-area">
+                  <ul id="maintab">
+                  <li class="selected" style="opacity:0; visibility:hidden; width:1px; height:1px; overflow:hidden;"><a href="#" data-name="tcontent1" class="deselected">1</a></li>
+                    <li><a href="#" data-name="tcontent2" class="deselected">HDFC</a></li>
+                    <li><a href="#" data-name="tcontent3" class="deselected">PayU</a></li>
+                  </ul>
+                </div>
+                <div class="tab-infoarea" id="tcontent1" style="display:block;"><p class="paymnt-gateway"> Please Select a payment gateway.</p></div>
+                <div class="tab-infoarea" id="tcontent2">
+                  <p>
+                    <label>Card Number</label>
+                    <input type="text" value="" placeholder="Card Number" >
+                  </p>
+                  <p>
+                    <label>Name On Card</label>
+                    <input type="text" value="" placeholder="Name On Card" >
+                  </p>
+                  <p>
+                    <label>Card Expire Date</label>
+                    <select name="" value="Select Month">
+                      <option value="" selected>Select Month</option>
+                      <option>Jan</option>
+                      <option>Feb</option>
+                      <option>Mar</option>
+                      <option>Apr</option>
+                      <option>may</option>
+                      <option>Jun</option>
+                      <option>July</option>
+                      <option>Aug</option>
+                      <option>Sep</option>
+                      <option>Oct</option>
+                      <option>Nov</option>
+                      <option>Dec</option>
+                    </select>
+                    <select name="" value="Select Month">
+                      <option value="" selected>Select Year</option>
+                      <option>2014</option>
+                      <option>2015</option>
+                      <option>2016</option>
+                      <option>2017</option>
+                      <option>2018</option>
+                      <option>2019</option>
+                      <option>2020</option>
+                      <option>2021</option>
+                      <option>2022</option>
+                      <option>2023</option>
+                      <option>2024</option>
+                      <option>2025</option>
+                    </select>
+                  </p>
+                  <p>
+                    <label>CVV</label>
+                    <input type="text" value="" placeholder="CVV" >
+                  </p>
+                  
+                </div>
+                <div class="tab-infoarea" id="tcontent3">
+                  <p>
+                    <label>Card Number</label>
+                    <input type="text" value="" placeholder="Card Number" >
+                  </p>
+                  <p>
+                    <label>Name On Card</label>
+                    <input type="text" value="" placeholder="Name On Card" >
+                  </p>
+                  <p>
+                    <label>Card Expire Date</label>
+                    <select name="" value="Select Month">
+                      <option value="" selected>Select Month</option>
+                      <option>Jan</option>
+                      <option>Feb</option>
+                      <option>Mar</option>
+                      <option>Apr</option>
+                      <option>may</option>
+                      <option>Jun</option>
+                      <option>July</option>
+                      <option>Aug</option>
+                      <option>Sep</option>
+                      <option>Oct</option>
+                      <option>Nov</option>
+                      <option>Dec</option>
+                    </select>
+                    <select name="" value="Select Month">
+                      <option value="" selected>Select Year</option>
+                      <option>2014</option>
+                      <option>2015</option>
+                      <option>2016</option>
+                      <option>2017</option>
+                      <option>2018</option>
+                      <option>2019</option>
+                      <option>2020</option>
+                      <option>2021</option>
+                      <option>2022</option>
+                      <option>2023</option>
+                      <option>2024</option>
+                      <option>2025</option>
+                    </select>
+                  </p>
+                  <p>
+                    <label>CVV</label>
+                    <input type="text" value="" placeholder="CVV ">
+                  </p>
+                  <!--<p>
+                  <div class="btn-proceed"> <a href="#cant-proceed" >Proceed</a> </div>
+                  </p>-->
+                </div>
+             
+              </div>
+              <div  class="divcontent paymethod2" id="netbankingContent" >
+                <div class="breakpoint2">
+                  <label>Select Other Bank list</label>
+                  <select  class="selectdrop" id="select_0" name="select_0">
+                    <option value="">-Select-</option>
+                    <option value="AND_N">Andhra Bank</option>
+                    <option value="UTI_N">AXIS Bank</option>
+                    <option value="BBK_N">Bank of Bahrain &amp; Kuwait</option>
+                    <option value="BOBCO_N">Bank of Baroda Corporate Accounts</option>
+                    <option value="BOB_N">Bank of Baroda Retail Accounts</option>
+                    <option value="BOI_N">Bank of India</option>
+                    <option value="BOM_N">Bank of Maharashtra</option>
+                    <option value="CITIUB_N">City Union Bank</option>
+                    <option value="COP_N">Corporation Bank</option>
+                    <option value="DCBB">DCB Bank</option>
+                    <option value="DEUNB_N">Deutsche Bank</option>
+                    <option value="FDEB_N">Federal Bank</option>
+                    <option value="HDEB_N">HDFC Bank</option>
+                    <option value="ICPRF_N">ICICI Bank</option>
+                    <option value="IDBI_N">IDBI Bank</option>
+                    <option value="IOB_N">Indian Overseas Bank</option>
+                    <option value="NIIB_N">IndusInd Bank</option>
+                    <option value="ING_N">ING Vysya Bank</option>
+                    <option value="JKB_N">Jammu &amp; Kashmir Bank</option>
+                    <option value="KTKB_N">Karnataka Bank</option>
+                    <option value="KVB_N">Karur Vysya Bank</option>
+                    <option value="NKMB_N">Kotak Mahindra Bank</option>
+                    <option value="LVB_N">Lakshmi Vilas Bank NetBanking</option>
+                    <option value="OBPRF_N">Oriental Bank of Commerce</option>
+                    <option value="PNBCO_N">Punjab National Bank Corporate Accounts</option>
+                    <option value="NPNB_N">Punjab National Bank Retail Accounts</option>
+                    <option value="SIB_N">South Indian Bank</option>
+                    <option value="SCB_N">Standard Chartered Bank</option>
+                    <option value="SBBJB">State Bank of Bikaner &amp; Jaipur</option>
+                    <option value="SBHB">State Bank Of Hyderabad</option>
+                    <option value="SBI_N">State Bank of India</option>
+                    <option value="SBMB">State Bank Of Mysore</option>
+                    <option value="SBT_N">State Bank of Travancore</option>
+                    <option value="SYNBK_N">Syndicate Bank</option>
+                    <option value="TNMB_N">Tamilnad Mercantile Bank</option>
+                    <option value="UNI_N">Union Bank of India</option>
+                    <option value="VJYA_N">Vijaya Bank</option>
+                    <option value="YES_N">YES Bank</option>
+                  </select>
+                </div>
+             
+              </div>
+              <div class="divcontent paymethod4" id="walletContent" >
+              
+                <div class="col-xs-6 col-sm-4 col-md-4 breakpoint1">
+                  <input type="radio" name="bank" class="radio" />
+                  <label>MobiKwik</label>
+                </div>
+             
+              </div>
+              <div  class="divcontent paymethod5" id="codContent">
+                <div class="payment-typebox">
+                  <ul>
+                    <li >
+                      <label> Phone No.</label>
+                      <input type="text" value="" placeholder="9586211445">
+                      <a class="edit_btn" href="/checkout/address"> Edit </a></li>
+                    <li><strong>Why prepaid is better for you:</strong></li>
+                      
+                        <li>Your transaction is secured by Verisign.</li>
+                        <li>You need not be physically present at the shipping address to make a payment at delivery.</li>
+                        <li>You don't need to confirm your order via phone, once your order is placed.</li>
+                        <li>Hassle free and quicker refunds as card payments are credited directly to your account, whereas a cheque is mailed in case of Cash on Delivery.</li>
+                    
+                    <li><strong>In case you do not accept a verified Cash on Delivery order we may need to revoke the Cash on Delivery payment option from your account for future purchases.</strong></li>
+                  </ul>
+                </div>
+          
+              </div>
+              <div  class="divcontent paymethod6" id="paybackContent" >
+                <div class="payment-typebox">
+                  <ul>
+                    
+                    <li> <label>Name</label>  <input type="text" value="" placeholder="Your Name"></li>
+                     <li class="check-point"><strong>Check your Packback points:</strong></li>
+                      <li> <label>Payback / Mobile Number</label><input type="text" value="" placeholder="Payback / Mobile Number" > <a class="edit_btn" href="#"> Check </a></li>
+                 
+                      <li>                     
+                       You can now redeem your PAYBACK reward points against any purchase on <a href="#">fashionandyou.com.</a></li>
+						<li>Conversion Ratio: 4 Points = 1 Re.</li>
+						<li><strong>You will be redirected to PAYBACK Payment Gateway for your transaction.</strong> 
+                   
+                    </li>
+                    
+                    </ul>
+                </div>
+              
+              </div>
+              <!-------icon -------------> 
+              <!--   <div class="payment-secure-icon">
+                  <ul class="payment-icons">
+                    <li class="paymenticon">&nbsp;</li>
+                  </ul>
+                </div>--> 
+              <div class="btn-proceed pull-down"> <a href="#cant-proceed" >Proceed</a> </div>
+            </div>
+          </div>
+	       </div>      
+<!-- payment area ends here -->

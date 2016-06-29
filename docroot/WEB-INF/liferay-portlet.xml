@@ -1,0 +1,361 @@
+<?xml version="1.0"?>
+<!DOCTYPE liferay-portlet-app PUBLIC "-//Liferay//DTD Portlet Application 6.2.0//EN" "http://www.liferay.com/dtd/liferay-portlet-app_6_2_0.dtd">
+
+<liferay-portlet-app>
+	<portlet>
+		<portlet-name>activate-account</portlet-name>
+		<icon>/icon.png</icon>
+		<friendly-url-mapper-class>com.app.url.mappers.ActivateAccountURLMapper</friendly-url-mapper-class>
+		<friendly-url-mapping>code</friendly-url-mapping>
+		<friendly-url-routes>com/app/url/routes/activate-account-url-routes.xml</friendly-url-routes>
+		<instanceable>false</instanceable>
+		<!-- <header-portlet-css>/css/main.css</header-portlet-css> -->
+		<footer-portlet-javascript>/js/main.js</footer-portlet-javascript>
+		<css-class-wrapper>activate-account-portlet</css-class-wrapper>
+	</portlet>
+	<portlet>
+		<portlet-name>AfterSales</portlet-name>
+		<icon>/icon.png</icon>
+		<friendly-url-mapper-class>com.app.url.mappers.AfterSalesURLMapper</friendly-url-mapper-class>
+		<friendly-url-mapping>order</friendly-url-mapping>
+		<friendly-url-routes>com/app/url/routes/after-sales-url-routes.xml</friendly-url-routes>
+		<instanceable>false</instanceable>
+		<!-- <header-portlet-css>/css/main.css</header-portlet-css> -->
+		<footer-portlet-javascript>/js/main.js</footer-portlet-javascript>
+		<css-class-wrapper>aftersales-portlet</css-class-wrapper>
+	</portlet>
+	<portlet>
+		<portlet-name>Billing</portlet-name>
+		<icon>/icon.png</icon>
+		<instanceable>false</instanceable>
+		<requires-namespaced-parameters>false</requires-namespaced-parameters>
+		<!-- <header-portlet-css>/css/main.css</header-portlet-css> -->
+		<footer-portlet-javascript>/js/billing.js</footer-portlet-javascript>
+		<css-class-wrapper>billing-portlet</css-class-wrapper>
+	</portlet>
+	<portlet>
+		<portlet-name>Credits</portlet-name>
+		<icon>/icon.png</icon>
+		<instanceable>false</instanceable>
+		<!-- <header-portlet-css>/css/main.css</header-portlet-css> -->
+		<footer-portlet-javascript>/js/credits.js</footer-portlet-javascript>
+		<css-class-wrapper>credits-portlet</css-class-wrapper>
+	</portlet>
+	<portlet>
+		<portlet-name>EventListing</portlet-name>
+		<icon>/icon.png</icon>
+		<friendly-url-mapper-class>com.app.url.mappers.EventListingURLMapper</friendly-url-mapper-class>
+		<friendly-url-mapping>list</friendly-url-mapping>
+		<friendly-url-routes>com/app/url/routes/event-listing-url-routes.xml</friendly-url-routes>
+		<instanceable>false</instanceable>
+		<private-session-attributes>false</private-session-attributes>
+		<!-- <header-portlet-css>/css/main.css</header-portlet-css> -->
+		<footer-portlet-javascript>/js/event-listing.js</footer-portlet-javascript>
+		<css-class-wrapper>eventlisting-portlet</css-class-wrapper>
+	</portlet>
+	<portlet>
+		<portlet-name>Favourites</portlet-name>
+		<icon>/icon.png</icon>
+		<instanceable>false</instanceable>
+		<!-- <header-portlet-css>/css/main.css</header-portlet-css> -->
+		<footer-portlet-javascript>/js/favourites.js</footer-portlet-javascript>
+		<css-class-wrapper>favourites-portlet</css-class-wrapper>
+	</portlet>
+	<portlet>
+		<portlet-name>ForgotPassword</portlet-name>
+		<icon>/icon.png</icon>
+		<instanceable>false</instanceable>
+		<!-- <header-portlet-css>/css/main.css</header-portlet-css> -->
+		<footer-portlet-javascript>/js/forgot-password.js</footer-portlet-javascript>
+		<css-class-wrapper>forgotpassword-portlet</css-class-wrapper>
+	</portlet>
+	<portlet>
+		<portlet-name>home</portlet-name>
+		<icon>/icon.png</icon>
+		<instanceable>false</instanceable>
+		<!-- <header-portlet-css>/css/main.css</header-portlet-css> -->
+		<footer-portlet-javascript>/js/home.js</footer-portlet-javascript>
+		<css-class-wrapper>home-portlet</css-class-wrapper>
+	</portlet>
+	<portlet>
+		<portlet-name>invitefriend</portlet-name>
+		<icon>/icon.png</icon>
+		<instanceable>false</instanceable>
+		<!-- <header-portlet-css>/css/main.css</header-portlet-css> -->
+		<footer-portlet-javascript>/js/invite-friend.js</footer-portlet-javascript>
+		<css-class-wrapper>invitefriend-portlet</css-class-wrapper>
+	</portlet>
+	<portlet>
+		<portlet-name>inviteregistration</portlet-name>
+		<icon>/icon.png</icon>
+		<instanceable>false</instanceable>
+		<!-- <header-portlet-css>/css/main.css</header-portlet-css> -->
+		<footer-portlet-javascript>/js/invite-registration.js</footer-portlet-javascript>
+		<css-class-wrapper>inviteregistration-portlet</css-class-wrapper>
+	</portlet>
+	<portlet>
+		<portlet-name>orderhistory</portlet-name>
+		<icon>/icon.png</icon>
+		<instanceable>false</instanceable>
+		<!-- <header-portlet-css>/css/main.css</header-portlet-css> -->
+		<footer-portlet-javascript>/js/order-history.js</footer-portlet-javascript>
+		<css-class-wrapper>orderhistory-portlet</css-class-wrapper>
+	</portlet>
+	<portlet>
+		<portlet-name>payment</portlet-name>
+		<icon>/icon.png</icon>
+		<instanceable>false</instanceable>
+		<header-portlet-css>/css/payment.css</header-portlet-css>
+		<footer-portlet-javascript>/js/payment.js</footer-portlet-javascript>
+		<css-class-wrapper>payment-portlet</css-class-wrapper>
+	</portlet>
+	<portlet>
+		<portlet-name>paymentsummary</portlet-name>
+		<icon>/icon.png</icon>
+		<instanceable>false</instanceable>
+		<!-- <header-portlet-css>/css/main.css</header-portlet-css> -->
+		<footer-portlet-javascript>/js/main.js</footer-portlet-javascript>
+	</portlet>
+	<portlet>
+		<portlet-name>hdfcresponse</portlet-name>
+		<icon>/icon.png</icon>
+		<instanceable>false</instanceable>
+		<!-- <header-portlet-css>/css/main.css</header-portlet-css> -->
+		<footer-portlet-javascript>/js/main.js</footer-portlet-javascript>
+		<css-class-wrapper>hdfcresponsehandle-portlet</css-class-wrapper>
+	</portlet>
+	<portlet>
+		<portlet-name>productdetail</portlet-name>
+		<icon>/icon.png</icon>
+		<friendly-url-mapper-class>com.app.url.mappers.ProductDetailURLMapper</friendly-url-mapper-class>
+		<friendly-url-mapping>d</friendly-url-mapping>
+		<friendly-url-routes>com/app/url/routes/product-detail-url-routes.xml</friendly-url-routes>
+		<instanceable>false</instanceable>
+		<private-session-attributes>false</private-session-attributes>
+		<header-portlet-css>/app-theme/dist/styles/product-detail.css</header-portlet-css>
+		<footer-portlet-javascript>/js/product-detail.js</footer-portlet-javascript>
+		<css-class-wrapper>productdetail-portlet</css-class-wrapper>
+	</portlet>
+	<portlet>
+		<portlet-name>restorepassword</portlet-name>
+		<icon>/icon.png</icon>
+		<instanceable>false</instanceable>
+		<!-- <header-portlet-css>/css/main.css</header-portlet-css> -->
+		<footer-portlet-javascript>/js/main.js</footer-portlet-javascript>
+		<css-class-wrapper>restorepassword-portlet</css-class-wrapper>
+	</portlet>
+	<portlet>
+		<portlet-name>rewards</portlet-name>
+		<icon>/icon.png</icon>
+		<instanceable>false</instanceable>
+		<!-- <header-portlet-css>/css/main.css</header-portlet-css> -->
+		<footer-portlet-javascript>/js/main.js</footer-portlet-javascript>
+		<css-class-wrapper>rewards-portlet</css-class-wrapper>
+	</portlet>
+	<portlet>
+		<portlet-name>search</portlet-name>
+		<icon>/icon.png</icon>
+		<friendly-url-mapper-class>com.app.url.mappers.SearchResultsURLMapper</friendly-url-mapper-class>
+		<friendly-url-mapping>result</friendly-url-mapping>
+		<friendly-url-routes>com/app/url/routes/search-results-url-routes.xml</friendly-url-routes>
+		<instanceable>false</instanceable>
+		<requires-namespaced-parameters>false</requires-namespaced-parameters>
+		<!-- <header-portlet-css>/css/main.css</header-portlet-css> -->
+		<footer-portlet-javascript>/js/search.js</footer-portlet-javascript>
+		<css-class-wrapper>search-portlet</css-class-wrapper>
+	</portlet>
+	<portlet>
+		<portlet-name>userlogin</portlet-name>
+		<icon>/icon.png</icon>
+		<instanceable>false</instanceable>
+		<!-- <header-portlet-css>/css/main.css</header-portlet-css> -->
+		<footer-portlet-javascript>/js/user-login.js</footer-portlet-javascript>
+		<css-class-wrapper>userlogin-portlet</css-class-wrapper>
+	</portlet>
+	<portlet>
+		<portlet-name>userregistration</portlet-name>
+		<icon>/icon.png</icon>
+		<instanceable>false</instanceable>
+		<!-- <header-portlet-css>/css/main.css</header-portlet-css> -->
+		<footer-portlet-javascript>/js/user-register.js</footer-portlet-javascript>
+		<css-class-wrapper>userregistration-portlet</css-class-wrapper>
+	</portlet>
+	<portlet>
+		<portlet-name>vouchers</portlet-name>
+		<icon>/icon.png</icon>
+		<instanceable>false</instanceable>
+		<!-- <header-portlet-css>/css/main.css</header-portlet-css> -->
+		<footer-portlet-javascript>/js/main.js</footer-portlet-javascript>
+		<css-class-wrapper>vouchers-portlet</css-class-wrapper>
+	</portlet>
+	<portlet>
+		<portlet-name>electronictag</portlet-name>
+		<icon>/icon.png</icon>
+		<instanceable>false</instanceable>
+		<!-- <header-portlet-css>/css/main.css</header-portlet-css> -->
+		<footer-portlet-javascript>/js/main.js</footer-portlet-javascript>
+		<css-class-wrapper>electronictag-portlet</css-class-wrapper>
+	</portlet>
+	<portlet>
+		<portlet-name>pressrelease</portlet-name>
+		<icon>/icon.png</icon>
+		<instanceable>false</instanceable>
+		<!-- <header-portlet-css>/css/main.css</header-portlet-css> -->
+		<footer-portlet-javascript>/js/main.js</footer-portlet-javascript>
+		<css-class-wrapper>pressrelease-portlet</css-class-wrapper>
+	</portlet>
+	<portlet>
+		<portlet-name>printtag</portlet-name>
+		<icon>/icon.png</icon>
+		<instanceable>false</instanceable>
+		<!-- <header-portlet-css>/css/main.css</header-portlet-css> -->
+
+		<footer-portlet-javascript>/js/main.js</footer-portlet-javascript>
+		<css-class-wrapper>printtag-portlet</css-class-wrapper>
+	</portlet>
+	<portlet>
+		<portlet-name>digitaltag</portlet-name>
+		<icon>/icon.png</icon>
+		<instanceable>false</instanceable>
+		<!-- <header-portlet-css>/css/main.css</header-portlet-css> -->
+		<footer-portlet-javascript>/js/main.js</footer-portlet-javascript>
+		<css-class-wrapper>digitaltag-portlet</css-class-wrapper>
+	</portlet>
+	<portlet>
+		<portlet-name>awardstag</portlet-name>
+		<icon>/icon.png</icon>
+		<instanceable>false</instanceable>
+		<!-- <header-portlet-css>/css/main.css</header-portlet-css> -->
+		<footer-portlet-javascript>/js/main.js</footer-portlet-javascript>
+		<css-class-wrapper>awardstag-portlet</css-class-wrapper>
+	</portlet>
+	<portlet>
+		<portlet-name>category</portlet-name>
+		<icon>/icon.png</icon>
+		<friendly-url-mapper-class>com.app.url.mappers.CategoryURLMapper</friendly-url-mapper-class>
+		<friendly-url-mapping>categories</friendly-url-mapping>
+		<friendly-url-routes>com/app/url/routes/category-url-routes.xml</friendly-url-routes>
+		<instanceable>false</instanceable>
+		<private-session-attributes>false</private-session-attributes>
+		<!-- <header-portlet-css>/css/main.css</header-portlet-css> -->
+		<footer-portlet-javascript>/js/category.js</footer-portlet-javascript>
+		<css-class-wrapper>category-portlet</css-class-wrapper>
+	</portlet>
+	<portlet>
+		<portlet-name>productlisitng</portlet-name>
+		<icon>/icon.png</icon>
+		<friendly-url-mapper-class>com.app.url.mappers.ProductListingURLMapper</friendly-url-mapper-class>
+		<friendly-url-mapping>listing</friendly-url-mapping>
+		<friendly-url-routes>com/app/url/routes/product-listing-url-routes.xml</friendly-url-routes>
+		<instanceable>false</instanceable>
+		<requires-namespaced-parameters>false</requires-namespaced-parameters>
+		<!-- <header-portlet-css>/css/main.css</header-portlet-css> -->
+		<footer-portlet-javascript>/js/product-listing.js</footer-portlet-javascript>
+		<css-class-wrapper>productlisitng-portlet</css-class-wrapper>
+	</portlet>
+	<portlet>
+		<portlet-name>cart</portlet-name>
+		<icon>/icon.png</icon>
+		<instanceable>false</instanceable>
+		<!-- <header-portlet-css>/css/main.css</header-portlet-css> -->
+		<footer-portlet-javascript>/js/cart.js</footer-portlet-javascript>
+		<css-class-wrapper>cart-portlet</css-class-wrapper>
+	</portlet>
+	<portlet>
+		<portlet-name>profile</portlet-name>
+		<icon>/icon.png</icon>
+		<instanceable>false</instanceable>
+		<header-portlet-css>/css/main.css</header-portlet-css>
+		<footer-portlet-javascript>/js/profile.js</footer-portlet-javascript>
+		<css-class-wrapper>profile-portlet</css-class-wrapper>
+	</portlet>
+	<portlet>
+		<portlet-name>navigation</portlet-name>
+		<icon>/icon.png</icon>
+		<instanceable>false</instanceable>
+		<!-- <header-portlet-css>/css/main.css</header-portlet-css> -->
+		<footer-portlet-javascript>/js/main.js</footer-portlet-javascript>
+		<css-class-wrapper>navigation-portlet</css-class-wrapper>
+	</portlet>
+	<portlet>
+		<portlet-name>gettnc</portlet-name>
+		<icon>/icon.png</icon>
+		<friendly-url-mapper-class>com.app.url.mappers.GetTNCURLMapper</friendly-url-mapper-class>
+		<friendly-url-mapping>t-n-c</friendly-url-mapping>
+		<friendly-url-routes>com/app/url/routes/get-tnc-url-routes.xml</friendly-url-routes>
+		<instanceable>false</instanceable>
+		<!-- <header-portlet-css>/css/main.css</header-portlet-css> -->
+		<footer-portlet-javascript>/js/main.js</footer-portlet-javascript>
+		<css-class-wrapper>gettnc-portlet</css-class-wrapper>
+	</portlet>
+	<portlet>
+		<portlet-name>preview</portlet-name>
+		<icon>/icon.png</icon>
+		<instanceable>false</instanceable>
+		<!-- <header-portlet-css>/css/main.css</header-portlet-css> -->
+		<footer-portlet-javascript>/js/main.js</footer-portlet-javascript>
+		<css-class-wrapper>preview-portlet</css-class-wrapper>
+	</portlet>
+	<portlet>
+		<portlet-name>previewcategory</portlet-name>
+		<icon>/icon.png</icon>
+		<friendly-url-mapper-class>com.app.url.mappers.PreviewCategoryURLMapper</friendly-url-mapper-class>
+		<friendly-url-mapping>previewcategories</friendly-url-mapping>
+		<friendly-url-routes>com/app/url/routes/preview-category-url-routes.xml</friendly-url-routes>
+		<instanceable>false</instanceable>
+		<!-- <header-portlet-css>/css/main.css</header-portlet-css> -->
+		<footer-portlet-javascript>/js/main.js</footer-portlet-javascript>
+		<css-class-wrapper>previewcategory-portlet</css-class-wrapper>
+	</portlet>
+	<portlet>
+		<portlet-name>ordersummary</portlet-name>
+		<icon>/icon.png</icon>
+		<instanceable>false</instanceable>
+		<requires-namespaced-parameters>false</requires-namespaced-parameters>
+		<!-- <header-portlet-css>/css/main.css</header-portlet-css> -->
+		<footer-portlet-javascript>/js/main.js</footer-portlet-javascript>
+		<css-class-wrapper>ordersummary-portlet</css-class-wrapper>
+	</portlet>
+	<portlet>
+		<portlet-name>ccelogin</portlet-name>
+		<icon>/icon.png</icon>
+		<instanceable>false</instanceable>
+		<!-- <header-portlet-css>/css/main.css</header-portlet-css> -->
+		<footer-portlet-javascript>/js/main.js</footer-portlet-javascript>
+		<css-class-wrapper>ccelogin-portlet</css-class-wrapper>
+	</portlet>
+	<portlet>
+		<portlet-name>categorystore</portlet-name>
+		<icon>/icon.png</icon>
+		<friendly-url-mapper-class>com.app.url.mappers.CategoryStoreURLMapper</friendly-url-mapper-class>
+		<friendly-url-mapping>item</friendly-url-mapping>
+		<friendly-url-routes>com/app/url/routes/category-store-url-routes.xml</friendly-url-routes>
+		<instanceable>false</instanceable>
+		<!-- <header-portlet-css>/css/main.css</header-portlet-css> -->
+		<footer-portlet-javascript>/js/category-store.js</footer-portlet-javascript>
+		<css-class-wrapper>categorystore-portlet</css-class-wrapper>
+	</portlet>
+	<portlet>
+		<portlet-name>category-products</portlet-name>
+		<icon>/icon.png</icon>
+		<!-- <header-portlet-css>/css/main.css</header-portlet-css> -->
+		<footer-portlet-javascript>/js/main.js</footer-portlet-javascript>
+		<css-class-wrapper>category-products-portlet</css-class-wrapper>
+	</portlet>
+	<role-mapper>
+		<role-name>administrator</role-name>
+		<role-link>Administrator</role-link>
+	</role-mapper>
+	<role-mapper>
+		<role-name>guest</role-name>
+		<role-link>Guest</role-link>
+	</role-mapper>
+	<role-mapper>
+		<role-name>power-user</role-name>
+		<role-link>Power User</role-link>
+	</role-mapper>
+	<role-mapper>
+		<role-name>user</role-name>
+		<role-link>User</role-link>
+	</role-mapper>
+</liferay-portlet-app>
